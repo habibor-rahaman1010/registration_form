@@ -37,8 +37,10 @@ h1, h2, h3, h4, h5, h6{
     cursor: pointer;
     width: 100%;
     opacity: 0.9;
+    border-radius: 4px;
+    cursor: pointer;
   }
-  input[type=text], input[type=password], input[type=tel], input[type=date], input[type=email] {
+  input[type=text], input[type=password], input[type=number], input[type=date], input[type=email] {
     width: 93%;
     padding: 15px;
     margin: 5px 0 12px 0;
@@ -46,8 +48,16 @@ h1, h2, h3, h4, h5, h6{
     border: none;
     background: #f1f1f1;
   }
+  input[type=number] {
+    -moz-appearance: textfield;
+  }
   h1{
     text-align: center;
     padding: 12px;
     color: rgb(0, 87, 128);
   }
+  #error1, #error2, #error3, #error4, #error5, #error6, #error7, #error8{
+    color: rgb(230, 11, 11);
+    font-size: 14px;
+  }
+ 
