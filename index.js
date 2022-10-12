@@ -95,22 +95,22 @@ const validate = ()=> {
 
     // for last birthday feild...
     if(passwordVal === ""){
-        document.getElementById('error6').innerText = "Cannot be blank phone Password"
+        document.getElementById('error7').innerText = "Cannot be blank phone Password"
         clear();
         return false;
     }else if(password >= 6){
-        document.getElementById("error6").innerText = "must be 6 character";
+        document.getElementById("error7").innerText = "must be 6 character";
         clear();
         return false;
     }
 
       // for last birthday feild...
       if(repeatPasswordVal === ""){
-        document.getElementById('error6').innerText = "Cannot be blank phone repeat Password"
+        document.getElementById('error8').innerText = "Cannot be blank phone repeat Password"
         clear();
         return false;
     }else if(repeatPasswordVal == passwordVal){
-        document.getElementById("error6").innerText = "must be acurate to password";
+        document.getElementById("error8").innerText = "must be acurate to password";
         clear();
         return false;
     }
