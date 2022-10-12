@@ -123,5 +123,8 @@ const clear = () =>{
     fullName.value = "";
     email.value = "";
     phone.value = "";
+    birthday.value = "";
+    password.value = "";
+    repeatPassword.value = "";
 }
 
