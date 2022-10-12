@@ -1,0 +1,53 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+h1, h2, h3, h4, h5, h6{
+    font-weight: 400;
+}
+.container{
+    max-width: 800px;
+    margin: auto;
+    padding-bottom: 20px
+}
+.outer{
+    background-color: rgb(245, 245, 245);
+    padding: 30px 90px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-top: 30px;
+    border-radius: 7px;
+    
+}
+.inner{
+    background-color: rgb(255, 255, 255);
+    padding: 10px 40px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.registerbtn {
+    background-color: #008bc2;
+    color: white;
+    font-size: 20px;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  input[type=text], input[type=password], input[type=tel], input[type=date], input[type=email] {
+    width: 93%;
+    padding: 15px;
+    margin: 5px 0 12px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+  h1{
+    text-align: center;
+    padding: 12px;
+    color: rgb(0, 87, 128);
+  }
